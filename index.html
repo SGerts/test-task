@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Тестовое задание по верстке</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/fonts.css"/>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header class="top_header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="top_info">
+					<span id="sites_amount">15234</span>
+					<span class="info">сайта(ов) в черном списке</span>
+
+					<button type="button" class="btn btn-default" aria-label="Left Align">Экспорт данных в Excel...</button>
+
+					<div class="search">
+						<div id="search_field">
+							<input type="search" class="form-control" placeholder="Поиск...">
+						</div>
+
+						<div class="search_info">
+							<span class="top_description">Показать данные</span>
+							<span class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									Все проекты
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+									<li><a href="#">Избранные</a></li>
+									<li><a href="#">В работе</a></li>
+									<li><a href="#">Какие-то еще</a></li>
+								</ul>
+							</span>
+							<span>
+								c <input type="date" class="form-control">
+							</span>
+							<span>
+								по <input type="date" class="form-control">
+							</span>
+						</div>
+					</div>
+
+					<div class="sorting">
+						<span class="top_description">Сортировать</span>
+						<div class="btn-group">
+							<button type="button" class="btn btn-default">по алфавиту</button>
+							<button type="button" class="btn btn-default">по дате добавления</button>
+						</div>
+						<span>
+							<label for="chbx"><input id="chbx" type="checkbox">выделить все</label>
+						</span>
+						<span>
+							<button type="button" class="btn btn-default-del" aria-label="Left Align">Удалить выбранные<span class="badge">1</span></button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="tables">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<form action="">
+				<div class="items">
+					<div class="type">A</div>
+					<ul>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+						<li><input type="checkbox">aretel.ru</li>
+					</ul>
+				</div>
+				<div class="items">
+					<div class="type">B</div>
+					<ul>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+						<li><input type="checkbox">brothershood.ru</li>
+					</ul>
+					<div class="items">
+						<div class="type">C</div>
+						<ul>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+							<li><input type="checkbox">cowboy.ru</li>
+						</ul>
+					</div>
+					<div class="items">
+						<div class="type">D</div>
+						<ul>
+							<li><input type="checkbox">doitdoit.ru</li>
+							<li><input type="checkbox">doitdoit.ru</li>
+							<li><input type="checkbox">doitdoit.ru</li>
+							<li><input type="checkbox">doitdoit.ru</li>
+							<li><input type="checkbox">doitdoit.ru</li>
+							<li><input type="checkbox">doitdoit.ru</li>
+							<li><input type="checkbox">doitdoit.ru</li>
+						</ul>
+					</div>
+					<div class="items">
+						<div class="type">E</div>
+						<ul>
+							<li><input type="checkbox">eminemfuns.ru</li>
+							<li><input type="checkbox">eminemfuns.ru</li>
+							<li><input type="checkbox">eminemfuns.ru</li>
+							<li><input type="checkbox">eminemfuns.ru</li>
+							<li><input type="checkbox">eminemfuns.ru</li>
+							<li><input type="checkbox">eminemfuns.ru</li>
+						</ul>
+					</div>
+					<div class="items">
+						<div class="type">F</div>
+						<ul>
+							<li><input type="checkbox">followtherabbit.ru</li>
+							<li><input type="checkbox">followtherabbit.ru</li>
+							<li><input type="checkbox">followtherabbit.ru</li>
+							<li><input type="checkbox">followtherabbit.ru</li>
+						</ul>
+					</div>
+					<div class="items">
+						<div class="type">G</div>
+						<ul>
+							<li><input type="checkbox">google.com</li>
+							<li><input type="checkbox">google.com</li>
+							<li><input type="checkbox">google.com</li>
+							<li><input type="checkbox">google.com</li>
+							<li><input type="checkbox">google.com</li>
+						</ul>
+					</div>
+					<div class="items">
+						<div class="type">I</div>
+						<ul>
+							<li><input type="checkbox">ice.ru</li>
+							<li><input type="checkbox">ice.ru</li>
+							<li><input type="checkbox">ice.ru</li>
+							<li><input type="checkbox">ice.ru</li>
+							<li><input type="checkbox">ice.ru</li>
+							<li><input type="checkbox">ice.ru</li>
+						</ul>
+					</div>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<button type="button" class="btn btn-default" aria-label="Left Align"><-</button>
+				<button type="button" class="btn btn-default" aria-label="Left Align">Следующая станица -></button>
+				<button type="button" class="btn btn-default" aria-label="Left Align">-></button>
+				<div class="paginator">
+					<span>A-I</span>
+					<span><a href="#">I-N</a></span>
+					<span><a href="#">N-Q</a></span>
+					<span><a href="#">Q-R</a></span>
+					<span><a href="#">R-T</a></span>
+					<span><a href="#">T-U</a></span>
+					<span><a href="#">...</a></span>
+					<span><a href="#">X-Z</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script src="libs/jquery/jquery-3.2.0.min.js"></script>
+	<script src="libs/jquery/jquery.datepicker.extension.range.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>

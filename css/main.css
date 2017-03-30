@@ -1,0 +1,100 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: RobotoLight, sans-serif;
+	font-size: 15px;
+	margin: 0 auto;
+	float: none;
+}
+#sites_amount {
+	font-size: 20px;
+	font-family: RobotoBold;
+}
+.info {
+	font-size: 20px;
+	font-family: RobotoBold;
+}
+.search {
+	max-width: 1000px;
+}
+.search_info {
+	max-width: 1000px;
+}
+.btn-default {
+	margin: 10px;
+}
+.btn-default-del {
+	background-color: transparent;
+	border: 1px solid red;
+	color: red;
+	margin: 10px;
+}
+.btn-default-del:hover {
+	background-color: transparent;
+	border: 1px solid red;
+	color: red;
+}
+.btn .badge {
+	background-color: white;
+	color: red;
+	font-family: RobotoBold;
+	font-size: 14px;
+}
+
+.col-sm-12 {
+	list-style-position: inside;
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 4; /* Safari and Chrome */
+	column-count: 4;
+	height: 630px;
+	overflow: hidden;
+	border: 0px solid grey;
+}
+.col-sm-12 ul {
+	list-style-type: none;
+	position: relative;
+}
+.col-sm-12 ul li {
+	padding: 10px 0 10px 0;
+}
+.items {
+	/*margin-bottom: 20px;*/
+}
+.type {
+	position: absolute;
+	font-family: RobotoBold;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.input-daterange {
+	width: 300px;
+}
+.paginator > span {
+	margin: 10px;
+}
+.form-control {
+	width: 200px;
+	display: inline;
+}
